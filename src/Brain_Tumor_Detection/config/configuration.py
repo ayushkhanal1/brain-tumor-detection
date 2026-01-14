@@ -89,9 +89,9 @@ class ConfigurationManager:
         """
         eval_config = EvaluationConfig(
             path_of_model="artifacts/training/model.h5", # Pointing to the latest trained model
-            training_data="artifacts/data_ingestion/kidney-ct-scan-image", # Dataset for validation
+            training_data="artifacts/data_ingestion", # Dataset for validation
             # URI for MLflow experiment tracking (connected to DagsHub in this case)
-            mlflow_uri="https://dagshub.com/ayukhanalsh100/kidney_disease_classification_project.mlflow",
+            mlflow_uri="https://dagshub.com/ayukhanalsh100/brain-tumor-detection.mlflow",
             all_params=self.params, # Passing hyperparameters to log them in MLflow
             params_image_size=self.params.IMAGE_SIZE,
             params_batch_size=self.params.BATCH_SIZE
