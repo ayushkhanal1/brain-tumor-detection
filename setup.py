@@ -11,7 +11,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Brain-Tumor-Detection"
 AUTHOR_USER_NAME = "ayushkhanal1"
-SRC_REPO = "Brain-Tumor-Detection"
+SRC_REPO = "Brain_Tumor_Detection"
 AUTHOR_EMAIL = "ayukhanalsh100@gmail.com"
 
 hyphen_dot_e="-e ."  
